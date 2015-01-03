@@ -1,0 +1,21 @@
+#JSGF V1.0;
+
+/**
+ * Network TCP/UDP command map for mindeskSpeech - Italiano
+ */
+
+map ita;
+
+<annulla> = (11);
+<ok> = (12);
+<elimina> = (21);
+<modifica> = (22);
+<sposta> = (23);
+<nuova cilindro> = (31);
+<nuovo cilindro> = (31);
+<nuova cubo> = (32);
+<nuovo cubo> = (32);
+<nuova linea> = (33);
+<nuovo linea> = (33);
+<nuova sfera> = (34);
+<nuovo sfera> = (34);

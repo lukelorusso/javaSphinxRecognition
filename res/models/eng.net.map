@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * Network TCP/UDP command map for mindeskSpeech - English
+ */
+
+map eng;
+
+<undo> = (11);
+<ok> = (12);
+<delete> = (21);
+<edit> = (22);
+<move> = (23);
+<create cylinder> = (31);
+<create box> = (32);
+<create line> = (33);
+<create sphere> = (34);

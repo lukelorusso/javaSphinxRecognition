@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for mindeskSpeech - Italiano (basato sul modello acustico Spagnolo)
+ */
+
+grammar ita;
+
+public <speechSet> = <basicCommands> | <control> <objects> | <exit>;
+<basicCommands> = (annulla | ok | elimina | modifica | sposta);
+<control> = (nuova | nuovo);
+<objects> = (cilindro | cubo | linea | sfera);
+<exit> = (termina controllo vocale);

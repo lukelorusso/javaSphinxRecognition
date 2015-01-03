@@ -1,0 +1,21 @@
+#JSGF V1.0;
+
+/**
+ * Network TCP/UDP command map for mindeskSpeech - Español
+ */
+
+map esp;
+
+<anula> = (11);
+<ok> = (12);
+<elimina> = (21);
+<modifica> = (22);
+<mueve> = (23);
+<nueva cilindros> = (31);
+<nuevo cilindros> = (31);
+<nueva cubo> = (32);
+<nuevo cubo> = (32);
+<nueva linea> = (33);
+<nuevo linea> = (33);
+<nueva esfera> = (34);
+<nuevo esfera> = (34);

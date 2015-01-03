@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for mindeskSpeech - English
+ */
+
+grammar eng;
+
+public <speechSet> = <basicCommands> | <control> <objects> | <exit>;
+<basicCommands> = (undo | ok | delete | edit | move);
+<control> = (create);
+<objects> = (cylinder | box | line | sphere);
+<exit> = (stop speech control);

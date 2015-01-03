@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for mindeskSpeech - Español
+ */
+
+grammar esp;
+
+public <speechSet> = <basicCommands> | <control> <objects> | <exit>;
+<basicCommands> = (anula | ok | elimina | modifica | mueve);
+<control> = (nueva | nuevo);
+<objects> = (cilindros | cubo | linea | esfera);
+<exit> = (termina control vocal);
